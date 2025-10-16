@@ -23,13 +23,13 @@ function Home2() {
               <br />
               <br />J'ai des notions de base dans des langages comme
               <i>
-                <b className="purple"> C++, Javascript <br>ou encore</br> Python. </b>
+                <b className="purple"> C++, Javascript <br>ou encore Python. </b>
               </i>
               <br />
               <br />
-              Mes domaines d'intérêt sont&nbsp;
+              Mes domaines d'intérêt sont &nbsp;
               <i>
-                <b className="purple">l'administration réseau</b> et <b className="purple">la recherche de failles dans les systèmes</b>{" "}
+                <b className="purple">l'administration réseau</b> et la recherche de failles dans les systèmes{" "}
                 
               </i>
               <br />
