@@ -31,7 +31,7 @@ function Skills() {
         </li>
         <li className="skills-item">
           <div className="title-wrapper">
-            <h5 className="h5">Concéption d'outils et Développement d'outils  </h5>
+            <h5 className="h5">Concéption d'outils et Développement web  </h5>
             <data value="75">75%</data>
           </div>
           <div className="skill-progress-bg">
