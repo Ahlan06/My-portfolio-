@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Etudiant en L3 informatique et réseaux",
-          "Developpeur Web, d'outils",
+          "Developpeur d'outils et d'applications web",
           "Pentesteur reseaux",
           "Freelancer",
         ],
