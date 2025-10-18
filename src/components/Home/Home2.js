@@ -52,9 +52,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>RETROUVEZ-MOI SUR</h1>
+            <h1>RETROUVEZ-MOI ICI</h1>
             <p>
-              N'hésitez pas à <span className="purple">me contacter </span>ici 
+              N'hésitez pas à <span className="purple">me contacter </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
