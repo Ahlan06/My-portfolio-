@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import PcSpecs from "./PcSpecs";
 import Skills from "./Skills";
 
 function About() {
@@ -46,7 +47,9 @@ function About() {
         </h1>
         <Toolstack />
 
-  <Skills />
+        <PcSpecs />
+
+        <Skills />
 
         <Github />
       </Container>

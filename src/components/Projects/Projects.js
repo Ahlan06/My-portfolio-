@@ -23,9 +23,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Shaban-logger"
-              description="Shaban est outil avancé de surveillance et de journalisation système que j'ai réalisé, développé en python sur Visual Studio, ll offre des fonctionnalités complètes de collecte d'informations système, de capture d'écran, de surveillance réseau et de journalisation des processus."
-              ghLink="https://github.com/Ahlan06/shaban-logger"
+              title="Nexora"
+              description="Nexora est un outil avancé de surveillance et de journalisation système que j'ai réalisé, développé en python sur Visual Studio, ll offre des fonctionnalités complètes de collecte d'informations système, de capture d'écran, de surveillance réseau et de journalisation des processus."
+              ghLink="https://github.com/Ahlan06/Nexora-"
             />
           </Col>
 
