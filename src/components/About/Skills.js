@@ -22,7 +22,7 @@ function Skills() {
       <ul className="skills-list content-card">
         <li className="skills-item">
           <div className="title-wrapper">
-            <h5 className="h5">Protocoles Réseaux & Sécurité</h5>
+            <h5 className="h5">Support technique Réseau & Sécurité</h5>
             <data value="85">85%</data>
           </div>
           <div className="skill-progress-bg">

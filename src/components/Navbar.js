@@ -12,6 +12,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { MdWork } from "react-icons/md";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -78,6 +79,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projets
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <MdWork style={{ marginBottom: "2px" }} /> Expériences
               </Nav.Link>
             </Nav.Item>
 

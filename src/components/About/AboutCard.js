@@ -11,13 +11,25 @@ function AboutCard() {
            Bonjour et bienvenue, je m'appelle <span className="purple">Ahlan Mira </span>
             je suis originaire de <span className="purple"> Paris.</span>
             <br />
-            Je suis actuellement en troisième année de licence au {" "}
-            <span className="purple"> Campus Montsouris</span> et je me spécialise en{" "}
-            <span className="purple">
-              Informatique et Réseaux.
-            </span>
+            Je suis actuellement en troisième année de licence en Informatique réseau et développement au {" "}
+            <a 
+              href="https://www.campusmontsouris.fr/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: "underline", textDecorationColor: "#c770f0" }}
+            >
+              <span className="purple">Campus Montsouris.</span>
+            </a> 
             <br />
-            J'ai obtenu un BTS en Cybersécurité, Informatique, Electronique et Réseaux.
+            J'ai obtenu un <span className="purple">BTS en Cybersécurité, Informatique, Electronique et Réseaux</span> au sein du{" "}
+            <a 
+              href="https://pia.ac-paris.fr/serail/jcms/p2_72913/fr/accueil" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              style={{ textDecoration: "underline", textDecorationColor: "#c770f0" }}
+            >
+              <span className="purple">Lycée Jacquard.</span>
+            </a>.
             <br />
             <br />
             Lorsque je ne suis pas devant un écran, je me consacre à...
