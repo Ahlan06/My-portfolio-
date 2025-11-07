@@ -75,6 +75,6 @@ Portfolio/
 
 
 <div align="center">
-  Developed with ❤️ by Ahlan Mira
+  Developed by Ahlan Mira
 </div>
 
