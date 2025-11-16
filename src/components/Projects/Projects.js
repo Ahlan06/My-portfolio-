@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import cyberSecurity from "../../Assets/Projects/blog (1).png";
 // protonvpn was used previously for a project image; using chatify.png instead below
 
 function Projects() {
@@ -99,11 +100,11 @@ function Projects() {
               }}
             >
               <ProjectCard
-                imgPath={editor}
+                imgPath={cyberSecurity}
                 isBlog={false}
-                title="Covaciel"
-                description="CoVACIEL est un projet compétitif que j'ai réalisé en deuxième année de BTS CIEL. Le but à été de réaliser une voitures autonomes en miniature, afin de participer à une course nationale."
-                ghLink="https://pia.ac-paris.fr/serail/jcms/s2_3644538/fr/covaciel"
+                title="AuditSec"
+                description="Site web professionnel proposant mes services de sécurisation d'applications et de parcs informatiques. Je propose également des cours d'initiation à la cybersécurité pour débutants et professionnels souhaitant renforcer leurs compétences en sécurité informatique. Le site est accessible bien qu'il soit en cours de developpement sur certains modules."
+                ghLink="https://auditsec.vercel.app/"
               />
             </div>
           </Col>
@@ -116,6 +117,32 @@ function Projects() {
                 opacity: animatedCards.has(2) ? 1 : 0,
                 transform: animatedCards.has(2) ? "translateY(0) scale(1)" : "translateY(40px) scale(0.9)",
                 transition: "all 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.3s",
+                background: "rgba(20, 20, 30, 0.6)",
+                backdropFilter: "blur(12px)",
+                border: "1px solid rgba(199, 112, 240, 0.3)",
+                borderRadius: "16px",
+                padding: "10px",
+                height: "100%"
+              }}
+            >
+              <ProjectCard
+                imgPath={editor}
+                isBlog={false}
+                title="Covaciel"
+                description="CoVACIEL est un projet compétitif que j'ai réalisé en deuxième année de BTS CIEL. Le but à été de réaliser une voitures autonomes en miniature, afin de participer à une course nationale."
+                ghLink="https://pia.ac-paris.fr/serail/jcms/s2_3644538/fr/covaciel"
+              />
+            </div>
+          </Col>
+
+          <Col md={4} className="project-card">
+            <div 
+              className="hyprland-project-card"
+              data-project="3"
+              style={{
+                opacity: animatedCards.has(3) ? 1 : 0,
+                transform: animatedCards.has(3) ? "translateY(0) scale(1)" : "translateY(40px) scale(0.9)",
+                transition: "all 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.45s",
                 background: "rgba(20, 20, 30, 0.6)",
                 backdropFilter: "blur(12px)",
                 border: "1px solid rgba(199, 112, 240, 0.3)",

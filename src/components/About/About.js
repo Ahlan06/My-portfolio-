@@ -47,9 +47,9 @@ function About() {
         </h1>
         <Toolstack />
 
-        <PcSpecs />
-
         <Skills />
+
+        <PcSpecs />
 
         <Github />
       </Container>

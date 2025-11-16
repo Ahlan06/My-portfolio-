@@ -27,7 +27,7 @@ function Home2() {
               <br />
               Mes domaines d'intérêt sont &nbsp;
               <i>
-                <b className="purple">l'administration réseau</b> et la recherche de failles dans les systèmes{" "}
+                <b className="purple">l'administration réseau</b> et <b className="purple">la recherche de failles dans des systèmes.</b>{" "}
                 
               </i>
               <br />

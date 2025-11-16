@@ -401,8 +401,10 @@ button:focus {
 /* Tool icons (local SVGs) */
 .tech-icons {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .tech-icons svg,
 .tool-icon {
@@ -413,6 +415,17 @@ button:focus {
 }
 .tech-icons svg[stroke] {
   stroke: #fff;  /* for SVGs using stroke */
+}
+
+.tech-icon-label {
+  color: #c770f0;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
 }
 
 /* Avatar photo replacement styling */
