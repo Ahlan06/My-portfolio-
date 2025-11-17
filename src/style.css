@@ -266,6 +266,12 @@ button:focus {
   padding-top: 80px !important;
 }
 
+@media (max-width: 767px) {
+  .home-header {
+    padding-top: 40px !important;
+  }
+}
+
 .home-section {
   position: relative;
   z-index: -1;
@@ -276,10 +282,23 @@ button:focus {
   padding-top: 30px !important;
 }
 
+@media (max-width: 767px) {
+  .home-section {
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+  }
+}
+
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .home-content {
+    padding: 3rem 0 1rem !important;
+  }
 }
 
 .heading {
@@ -288,10 +307,27 @@ button:focus {
   animation: slideInLeft 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media (max-width: 767px) {
+  .heading {
+    font-size: 1.8em !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
 .heading-name {
   font-size: 2.5em !important;
   padding-left: 45px !important;
   animation: slideInLeft 0.8s cubic-bezier(0.4, 0, 0.2, 1) 0.2s backwards;
+}
+
+@media (max-width: 767px) {
+  .heading-name {
+    font-size: 1.8em !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-bottom: 15px !important;
+  }
 }
 
 .main-name {
@@ -314,12 +350,14 @@ button:focus {
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
+    font-size: 1.2em !important;
     font-weight: 500 !important;
-    position: absolute !important;
+    line-height: 1.5 !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .Typewriter__cursor {
-    display: none !important;
+    font-size: 1.2em !important;
   }
 }
 
@@ -342,11 +380,31 @@ button:focus {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(199, 112, 240, 0.03) 100%);
 }
 
+@media (max-width: 767px) {
+  .home-about-section {
+    padding-bottom: 60px !important;
+    padding-top: 60px !important;
+  }
+}
+
 .home-about-description {
   color: white !important;
   padding-top: 50px !important;
   padding-bottom: 20px !important;
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  .home-about-description {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  .home-about-description h1 {
+    font-size: 1.8em !important;
+  }
 }
 
 .home-about-body {
@@ -356,10 +414,35 @@ button:focus {
   letter-spacing: 0.3px;
 }
 
+@media (max-width: 767px) {
+  .home-about-body {
+    padding-top: 15px;
+    font-size: 1em !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
   color: white !important;
+}
+
+@media (max-width: 767px) {
+  .home-about-social {
+    padding-top: 40px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  
+  .home-about-social h1 {
+    font-size: 1.6em !important;
+  }
+  
+  .home-about-social p {
+    font-size: 0.95em !important;
+  }
 }
 
 .home-about-social-links {
@@ -690,6 +773,15 @@ button:focus {
   color: white !important;
 }
 
+@media (max-width: 767px) {
+  .about-section {
+    padding-top: 100px !important;
+    padding-bottom: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -729,12 +821,26 @@ button:focus {
   border: none !important;
   color: white !important;
   background-color: transparent !important;
+  padding: 20px !important;
+}
+
+@media (max-width: 767px) {
+  .quote-card-view {
+    padding: 15px !important;
+  }
 }
 
 .about-activity {
   list-style: none !important;
   text-align: left !important;
   padding-left: 1px !important;
+}
+
+@media (max-width: 767px) {
+  .about-activity {
+    font-size: 0.95em !important;
+    margin-bottom: 8px !important;
+  }
 }
 
 @media (max-width: 767px) {
