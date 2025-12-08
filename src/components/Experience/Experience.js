@@ -11,9 +11,9 @@ function Experience() {
       id: 1,
       title: "Technicien Réseau & Sécurité",
       company: "IRT Ingénierie",
-      period: "6 mai - 8 juin 2024",
+      period: "6 mai - 28 juin 2024",
       location: "Clamart, France",
-      duration: "5 semaines",
+      duration: "8 semaines",
       type: "Stage BTS CIEL",
       description: [
         "Support réseau et administration système",
