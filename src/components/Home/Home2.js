@@ -26,9 +26,9 @@ function Home2() {
               lineHeight: '1.8',
               color: 'rgba(255, 255, 255, 0.9)'
             }}>
-              Passionné par l'informatique et les systèmes réseaux depuis que j'utilise Linux.
+              Passionné par l'informatique et les systèmes réseaux depuis que je suis sous Linux.
               <br />
-              <br />J'ai des compétences dans des langages tels que
+              <br />J'ai acquis des compétences dans des langages tels que
               <i>
                 <b className="purple"> C++, JavaScript et Python</b>
               </i>

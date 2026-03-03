@@ -17,21 +17,6 @@ function AboutCard() {
            Bonjour et bienvenue, je m'appelle <span className="purple">Ahlan Mira</span>, je suis originaire de <span className="purple">Paris</span>.
             <br />
             <br />
-            Je suis actuellement en troisième année de licence en Informatique réseau et développement au{" "}
-            <a 
-              href="https://www.campusmontsouris.fr/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              style={{ 
-                textDecoration: "none",
-                borderBottom: "2px solid #c770f0",
-                transition: 'all 0.3s ease'
-              }}
-            >
-              <span className="purple">Campus Montsouris</span>
-            </a>.
-            <br />
-            <br />
             J'ai obtenu un <span className="purple">BTS en Cybersécurité, Informatique, Électronique et Réseaux</span> au sein du{" "}
             <a 
               href="https://pia.ac-paris.fr/serail/jcms/p2_72913/fr/accueil" 
@@ -45,6 +30,9 @@ function AboutCard() {
             >
               <span className="purple">Lycée Jacquard</span>
             </a>.
+            <br />
+            <br />
+            Je suis un <span className="purple">pentesteur en sécurité informatique</span>, je réalise des missions consistant à réaliser des <span className="purple">audits de sécurité</span> Dans le but de protéger des infrastructures face au cyber attaques. Je développe aussi mes propres outils, dont ma propre <span className="purple">IA</span> dans le cadre de recherches de failles non découvertes.
             <br />
             <br />
             Lorsque je ne suis pas devant un écran, je me consacre à...
