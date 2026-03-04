@@ -103,9 +103,9 @@ function Projects() {
               <ProjectCard
                 imgPath={cyberSecurity}
                 isBlog={false}
-                title="AuditSec"
+                title="MyaSec"
                 description="Site web professionnel proposant mes services de sécurisation d'applications et de parcs informatiques. Je propose également des cours d'initiation à la cybersécurité pour débutants et professionnels souhaitant renforcer leurs compétences en sécurité informatique. Le site est accessible bien qu'il soit en cours de developpement sur certains modules."
-                ghLink="https://auditsec.vercel.app/"
+                ghLink="https://myasec.vercel.app/"
               />
             </div>
           </Col>
